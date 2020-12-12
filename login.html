@@ -1,0 +1,57 @@
+<html lang="es">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Hjeraldine</title>
+    <link rel="stylesheet" href="login.css" type="text/css">   
+</head>
+
+<body>
+    <div>
+
+        <div>
+            <h1>Login Taller Html - Css - Javascript</h1>
+        </div> 
+    
+
+        <div class="ingresologin">
+            <fieldset>
+                <h2>Sign In <img src="candado.png"></h2>
+                <br>
+
+                <table>
+                    <tr>
+                        <td style="width: 120; height: 30;"> <p class="texto">E-mail address</p></td> 
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="usuario" id= "usu1" size="30" maxlength="50" required> </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table>
+                    <tr>
+                        <td style="width: 120; height: 30;"> <p class="texto">Password</p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="costraseña" id= "cont1" size="30" maxlength="50" required></td>
+                    </tr>
+                </table>
+                <div id="error">
+
+                </div>
+                        
+                <br> <br>
+
+                <div class="button">
+                  <input type="button" value="Sing In" id="boton" onclick="return valide();" /> 
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
